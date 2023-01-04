@@ -1,0 +1,12 @@
+{
+  "base": ["/Users/hao/spaces/projj"],
+  "hooks": {
+    "postadd": "code .",
+    "github": "git config user.name citrus327 && git config user.email citrus327@outlook.com",
+    "npm": "yarn config set registry https://registry.npmjs.org/ --global && npm config set registry https://registry.npmjs.org/",
+    "cnpm": "yarn config set registry https://registry.npm.taobao.org --global && npm config set registry https://registry.npm.taobao.org/"
+  },
+  "alias": {
+    "github://": "https://github.com/"
+  }
+}
